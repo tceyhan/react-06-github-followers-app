@@ -20,9 +20,9 @@ const Followers = ({followers}) => {
   return (
     <div>
       {
-        loading ? (<div>
-          <img src={loadingGif} alt="loading..." />
-        </div>) : (<div>
+        loading ? <div><img src={loadingGif} alt="loading..." /></div>
+         :
+         <div>
           <Container>
             <Row xs={2} md={3} lg={4}>
               {currentFollowers?.map((follower, index)=> (
@@ -36,7 +36,7 @@ const Followers = ({followers}) => {
             <Paginate pages = {totalPages} setCurrentPage={setCurrentPage} />
           </div>
         </div>
-        )
+        
       }
     </div>
   )
