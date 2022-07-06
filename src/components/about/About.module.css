@@ -1,0 +1,81 @@
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;  
+    background-color: #820467;
+
+}
+.aboutImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+   
+}
+.aboutHead{
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(252, 245, 245);
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.aboutSpan{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.aboutSpan:hover{   
+    color: rgb(200, 225, 197);
+    transform: rotateX(360deg) scale(1.2);
+    transition: all 1s ease-in-out;
+    background: rgb(171, 19, 174);
+    background: linear-gradient(66deg, rgb(192, 7, 121) 0%, rgb(100, 100, 196) 12%, rgb(36, 158, 183) 100%);
+}
+.aboutText{
+    font-size: 1rem;
+    color: rgb(58, 4, 4);
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: right;
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+.aboutText h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(58, 4, 4);
+    margin-bottom: 10px;
+    text-align: right;
+}
+.aboutText:hover{
+    color: rgb(200, 225, 197);    
+    transform: rotateX(45deg) scale(1.2);
+    transition: all 0.5s ease-in-out;
+    background: rgb(171, 19, 174);
+    background: linear-gradient(66deg, rgb(192, 7, 121) 0%, rgb(230, 121, 210) 12%, rgb(154, 213, 225) 100%);
+    
+}
+
+.aboutEmail{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(62, 11, 139);
+    text-decoration: none;
+    color: white;
+}
+.aboutEmail:hover{
+    text-decoration: underline;
+    font-size: large;
+    color: rgb(200, 225, 197);
+    
+}

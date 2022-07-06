@@ -20,9 +20,9 @@ const Followers = ({followers}) => {
   return (
     <div>
       {
-        loading ? <div><img src={loadingGif} alt="loading..." /></div>
+        loading ? <div className='w-100 center'><img src={loadingGif} alt="loading..." /></div>
          :
-         <div>
+         <div className='text-center'>
           <Container>
             <Row xs={2} md={3} lg={4}>
               {currentFollowers?.map((follower, index)=> (
@@ -32,7 +32,7 @@ const Followers = ({followers}) => {
               ))}
             </Row>
           </Container>
-          <div>
+          <div className="mt-2">
             <Paginate pages = {totalPages} setCurrentPage={setCurrentPage} />
           </div>
         </div>

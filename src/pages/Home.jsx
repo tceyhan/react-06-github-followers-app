@@ -23,7 +23,7 @@ const Home = () => {
   getFollowers()
   setTimeout(() => {
     setLoading(false)
-  }, 3000);
+  }, 2000);
   }, [])
 
 const followersList = allFollowers.filter(follower=>follower.login.includes(search))

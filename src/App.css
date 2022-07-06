@@ -1,7 +1,10 @@
 .App {
   text-align: center;
+ 
 }
-
+body{
+  background-color:rgb(208, 220, 232);
+}
 a{
   text-decoration: none;
   color: #666;
@@ -10,6 +13,5 @@ a{
 a:hover{
   text-decoration: none;
   color: #666;
-  padding: 1rem;
-  font-size: 1.2rem;
+  padding: 1rem;  
 }
