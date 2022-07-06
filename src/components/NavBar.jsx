@@ -16,7 +16,7 @@ const NavBar = () => {
 
   return (
     <div>
-      <Navbar className="bg-info">
+      <Navbar className="bg-warning">
         {isOpen ? (<Container>
           <Navbar.Brand href="">
             <img src={mylogo} alt="my-logo" />         

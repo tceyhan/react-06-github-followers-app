@@ -20,7 +20,7 @@ const Followers = ({followers}) => {
   return (
     <div>
       {
-        loading ? <div className='w-100 center'><img src={loadingGif} alt="loading..." /></div>
+        loading ? <div className="d-flex justify-content-center"><img src={loadingGif} alt="loading..." /></div>
          :
          <div className='text-center'>
           <Container>
@@ -32,7 +32,7 @@ const Followers = ({followers}) => {
               ))}
             </Row>
           </Container>
-          <div className="mt-2">
+          <div className="d-flex justify-content-center">
             <Paginate pages = {totalPages} setCurrentPage={setCurrentPage} />
           </div>
         </div>

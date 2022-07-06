@@ -3,12 +3,13 @@
  
 }
 body{
-  background-color:rgb(208, 220, 232);
+  background-color:rgb(251, 227, 193);
 }
 a{
   text-decoration: none;
   color: #666;
   padding: 1rem;
+  font-size: larger;
 }
 a:hover{
   text-decoration: none;
